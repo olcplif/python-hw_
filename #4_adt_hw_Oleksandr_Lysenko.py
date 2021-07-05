@@ -58,4 +58,6 @@ print(name_var(set_c=set_c), type_definition(set_c))  # OUTPUT: ['set_c'] this s
 print(name_var(lst_d=lst_d), type_definition(lst_d))  # OUTPUT: ['lst_d'] this list type
 print(name_var(dict_e=dict_e), type_definition(dict_e))  # OUTPUT: ['dict_e'] this dict type
 
-print('Anna has {apples} apples and {peaches} peaches.'.format(apples=int(input("Enter apples:")), peaches=input("Enter peaches:" )))
+print('Anna has {apples} apples and {peaches} peaches.'.format(apples=input("Enter apples:"), peaches=input("Enter "
+                                                                                                            "peaches:" )))
+print('Anna has {0} apples and {1} peaches.'.format("10", "8"))
